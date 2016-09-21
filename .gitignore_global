@@ -1,0 +1,71 @@
+# Based on Octocat's .gitignore file @ https://gist.github.com/octocat/9257657
+# Setup: save this file in home directory and run next line in your terminal
+# $git config --global core.excludesfile ~/.gitignore_global
+#
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS files #
+######################
+.DS_Store
+.DS_Store?
+Desktop.ini
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editer files #
+################
+*.pyo
+*.pyc
+*.bak
+*.swp
+
+# Rails files #
+##########################
+/spring/*.pid
+*application.yml
+*secrets_token.yml
+secrets.yml
+.ruby-gemset
+.rvmrc
+.gitignore
+.ruby-version
+.sass-cache
+
+# Node Files #
+##############
+node_modules
+
+# Language Files #
+##################
+.pyc # Python
+.out # C++
